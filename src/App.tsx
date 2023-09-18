@@ -1,4 +1,5 @@
 import Nav from "./components/Nav";
+
 import {
   Hero,
   PopularProducts,
@@ -10,24 +11,24 @@ import {
 
 const App = () => {
   return (
-    <main>
+    <main className="scroll-smooth">
       <Nav />
-      <section>
+      <section className="padding">
         <Hero />
       </section>
-      <section>
+      <section className="padding">
         <PopularProducts />
       </section>
-      <section>
+      <section className="padding">
         <SpecialOffer />
       </section>
-      <section>
+      <section className="padding bg-slate-200">
         <CustomerReviews />
       </section>
-      <section>
+      <section className="padding">
         <SignUp />
       </section>
-      <section>
+      <section className="padding-x padding-t pb-8 bg-black text-white">
         <Footer />
       </section>
     </main>
