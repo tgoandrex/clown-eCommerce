@@ -21,7 +21,7 @@ const Hero = () => {
         </h1>
       </div>
       <div className="w-full flex flex-col justify-center items-center">
-        <img src={hero} alt='Clown image' className="rounded-2xl mx-auto max-w-md" />
+        <img src={hero} alt='Clown image' className="rounded-2xl mx-auto max-w-md w-full" />
         <Button label="Shop Now" />
       </div>
     </section>
