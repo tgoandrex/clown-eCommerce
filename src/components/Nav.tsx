@@ -31,7 +31,7 @@ const Nav = () => {
         <ul className="flex justify-evenly items-center flex-grow max-lg:hidden">
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a href={item.href}>{item.label}</a>
+              <a href={item.href} className="text-lg">{item.label}</a>
             </li>
           ))}
         </ul>
@@ -43,7 +43,7 @@ const Nav = () => {
         <ul className="flex flex-col text-center">
           {navLinks.map((item) => (
             <li key={item.label} className="py-4">
-              <a href={item.href}>{item.label}</a>
+              <a href={item.href} className="text-lg">{item.label}</a>
             </li>
           ))}
         </ul>
