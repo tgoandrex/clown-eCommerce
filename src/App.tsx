@@ -11,12 +11,12 @@ import {
 
 const App = () => {
   return (
-    <main className="scroll-smooth">
+    <main>
       <Nav />
       <section className="padding">
         <Hero />
       </section>
-      <section className="padding">
+      <section className="padding bg-slate-200">
         <PopularProducts />
       </section>
       <section className="padding">
