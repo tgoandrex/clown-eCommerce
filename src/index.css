@@ -7,6 +7,10 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+
+  .heading-three {
+    @apply font-semibold text-6xl lg:text-7xl
+  }
   
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;

@@ -2,8 +2,8 @@ import { products } from "../constants";
 
 const PopularProducts = () => {
   return (
-    <section id="products">
-      <h1 className="font-semibold text-6xl lg:text-7xl">Popular Products</h1>
+    <section id="products" className="w-full max-container">
+      <h3 className="heading-three">Popular Products</h3>
       <ul className="flex flex-wrap gap-4 pt-8">
         {products.map((item) => (
           <li key={item.name} className="flex flex-col flex-wrap flex-grow items-center">

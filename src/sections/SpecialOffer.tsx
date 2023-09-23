@@ -8,7 +8,7 @@ const SpecialOffer = () => {
         <img src={offer} alt='Clown image' className="rounded-2xl mx-auto max-w-md w-full" />
       </div>
       <div className="w-full flex flex-col justify-center items-center">
-        <h3 className="text-center text-6xl lg:text-7xl font-semibold mx-auto max-w-md pb-4 mt-6 lg:-mt-7">
+        <h3 className="text-center heading-three mx-auto max-w-md pb-4 mt-6 lg:-mt-7">
           Special Offer
           <br />
           <span className="text-slate-500 text-base font-normal">
