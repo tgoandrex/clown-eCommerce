@@ -57,3 +57,31 @@ export const reviews = [
         feedback: "Clown class taught me everything!"
     }
 ];
+
+export const footerLinks = [
+    {
+        title: "Products",
+        links: [
+            { name: "Clothing", link: "/" },
+            { name: "Accessories", link: "/" },
+            { name: "Makeup", link: "/" },
+            { name: "Other", link: "/" }
+        ],
+    },
+    {
+        title: "Help",
+        links: [
+            { name: "About us", link: "/" },
+            { name: "FAQs", link: "/" },
+            { name: "Privacy policy", link: "/" },
+            { name: "Payment policy", link: "/" }
+        ],
+    },
+    {
+        title: "Contact Us",
+        links: [
+            { name: "support@clownstore.com", link: "mailto:support@clownstore.com" },
+            { name: "+11234567890", link: "tel:+11234567890" },
+        ],
+    },
+];
